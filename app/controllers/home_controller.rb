@@ -6,7 +6,7 @@ class HomeController < ApplicationController
       index = IndexTank::ApiClient.new("http://:1ZyO79E4UQSlht@dctgg.api.indextank.com").get_index "plixidemo"
       @query = params[:query]
       print @query
-      if @query != ''
+      if @query and @query != ''
           @res = index.search(@query, :snippet=>'text', :fetch=>'thumbnail_url,screen_name,plixi_id,timestamp')
       else
           @res = {'results' => []}
