@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>
+Plixi search - an IndexTank demo app.
+</title>
+ <style> 
+    .autocomplete-w1 { background:url(img/shadow.png) no-repeat bottom right; position:absolute; top:0px; left:0px; margin:6px 0 0 6px; /* IE6 fix: */ _background:none; _margin:1px 0 0 0; }
+    .autocomplete { border:1px solid #999; background:#FFF; cursor:default; text-align:left; max-height:350px; overflow:auto; margin:-6px 6px 6px -6px; /* IE6 specific: */ _height:350px;  _margin:0; _overflow-x:hidden; }
+    .autocomplete .selected { background:#F0F0F0; }
+    .autocomplete div { padding:2px 5px; white-space:nowrap; overflow:hidden; }
+    .autocomplete strong { font-weight:normal; color:#3399FF; }
+ 
+    </style> 
+ 
+    <script type='text/javascript' src='/static/jquery.js'></script> 
+    <script type='text/javascript' src='/static/jquery.autocomplete.js'></script> 
+ 
+ 
+    <script> 
+        jQuery(window).load(function(){
+            var options, a;
+            options = {
+                serviceUrl:'http://dctgg.api.indextank.com/v1/indexes/plixidemo/autocomplete',
+                params: {}
+            };
+            a = jQuery('#s').autocomplete(options);
+            
+        });
+    </script>
+            
+
+</head>
+<body>
+<form id="search"> 
+       <input id="s" type="text" value="<%= @query %>" style="color:black" name="query"> 
+</form> 
+<table>
+
+<% if @res['matches'] %> Showing results 1 - <%= @res['results'].length %> out of <%= @res['matches'] %><br/><% end %>
+
+<% if @res['results'] %> 
+<table>
+	<% @res['results'].each do |x| %>
+        <tr><td>
+        <a href="http://plixi.com/p/<%= x['plixi_id']%>"><img src="<%= x['thumbnail_url'] %>"></a></td>
+        <td><%= x['snippet_text'] %><br/>
+        by <b><%= x['screen_name'] %></b> <%= time_ago_in_words(Time.at(Integer(x['timestamp']))) %> ago<td/>
+        </tr>
+	<% end %>
+</table>
+<% end %>
+
+</body>
+</html>
