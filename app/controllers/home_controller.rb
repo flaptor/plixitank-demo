@@ -1,9 +1,9 @@
-require 'lib/indextank_client'
+require 'indextank_client'
 
 class HomeController < ApplicationController
 
   def home
-      index = IndexTank::ApiClient.new("http://:1ZyO79E4UQSlht@dctgg.api.indextank.com").get_index "plixidemo"
+      index = IndexTank::HerokuClient.new.get_index "herokutest"
       @query = params[:query]
       print @query
       if @query and @query != ''
