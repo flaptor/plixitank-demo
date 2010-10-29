@@ -4,8 +4,8 @@ require 'net/http'
 
 plixi_url='http://api.plixi.com/api/tpapi.svc/json/photos?getuser=true'
 
-api = IndexTank::ApiClient.new 'http://:Az8QXRhHLzMRiJ@d24bu.api.indextank.com'
-index = api.get_index 'herokutest'
+api = IndexTank::ApiClient.new 'YOUR API URL'
+index = api.get_index 'YOUR INDEX NAME'
 if not index.exists?
     index.create_index
 end
