@@ -3,7 +3,7 @@ require 'indextank_client'
 class HomeController < ApplicationController
 
   def home
-      index = IndexTank::HerokuClient.new.get_index "herokutest"
+      index = IndexTank::HerokuClient.new.get_index "YOUR INDEX NAME"
       @query = params[:query]
       print @query
       if @query and @query != ''
