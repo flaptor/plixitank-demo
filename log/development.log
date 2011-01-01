@@ -6460,3 +6460,307 @@ ActionController::RoutingError (No route matches "/img/shadow.png" with {:method
   /usr/lib/ruby/1.8/rack/handler/webrick.rb:14:in `run'
 
 Rendering rescues/layout (not_found)
+/!\ FAILSAFE /!\  Sat Jan 01 13:07:11 -0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Sat Jan 01 13:10:52 -0800 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/dbasch/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2011-01-01 13:12:26) [GET]
+
+Gem::LoadError (can't activate rack (>= 1.1.0, < 2, runtime) for ["faraday-0.5.3", "indextank-0.0.5"], already activated rack-1.0.1 for ["actionpack-2.3.5", "rails-2.3.5"]):
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:242:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:258:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:258:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `activate'
+  app/controllers/home_controller.rb:1
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2011-01-01 13:13:54) [GET]
+
+Gem::LoadError (can't activate rack (>= 1.1.0, < 2, runtime) for ["faraday-0.5.3", "indextank-0.0.5"], already activated rack-1.0.1 for ["actionpack-2.3.5", "rails-2.3.5"]):
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:242:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:258:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:258:in `activate'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems.rb:257:in `activate'
+  app/controllers/home_controller.rb:1
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2011-01-01 13:13:56) [GET]
+
+MissingSourceFile (no such file to load -- indextank):
+  app/controllers/home_controller.rb:1
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2011-01-01 13:13:57) [GET]
+
+MissingSourceFile (no such file to load -- indextank):
+  app/controllers/home_controller.rb:1
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (42.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2011-01-01 13:14:52) [GET]
+
+NameError (undefined local variable or method `api_url' for #<HomeController:0x1021ba438>):
+  app/controllers/home_controller.rb:10:in `home'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2011-01-01 13:15:31) [GET]
+Rendering home/home
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:15:32) [GET]
+
+ActionController::RoutingError (No route matches "/img/shadow.png" with {:method=>:get}):
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2011-01-01 13:15:35) [GET]
+  Parameters: {"query"=>"blah"}
+Rendering home/home
+Completed in 585ms (View: 4, DB: 0) | 200 OK [http://localhost/?query=blah]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:15:36) [GET]
+
+ActionController::RoutingError (No route matches "/img/shadow.png" with {:method=>:get}):
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home (for 127.0.0.1 at 2011-01-01 13:15:42) [GET]
+  Parameters: {"query"=>"coffee"}
+Rendering home/home
+Completed in 390ms (View: 4, DB: 0) | 200 OK [http://localhost/?query=coffee]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-01 13:15:43) [GET]
+
+ActionController::RoutingError (No route matches "/img/shadow.png" with {:method=>:get}):
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/dbasch/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
