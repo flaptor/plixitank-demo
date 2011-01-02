@@ -1,10 +1,10 @@
-require 'indextank_client'
-
+require 'indextank'
 
 class HomeController < ApplicationController
 
   def home
-      index = IndexTank::ApiClient.new('your api url').get_index 'your index name'
+      api = IndexTank::Client.new your_api_url
+      index = api.indexes your_index_name
       @query = params[:query]
       print @query
       if @query and @query != ''
